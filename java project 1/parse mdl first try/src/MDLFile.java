@@ -98,7 +98,7 @@ public class MDLFile {
                         fileLines[i].properties[j][1] = propertyList.item(j).getTextContent();
                         }
                         NodeList branches = ElementL.getElementsByTagName("Branch");
-                        System.out.println("no of branches"+(branches.getLength()));
+                        //System.out.println("no of branches"+(branches.getLength()));
                         for(int k = 0; k < branches.getLength();k++)
                         {
                             Node nodeB = branches.item(k);
